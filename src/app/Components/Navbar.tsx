@@ -87,7 +87,7 @@ const Navbar = () => {
         <nav className="bg-teal-800 dark:bg-gray-900 fixed w-full z-20 top-0 left-0  dark:border-gray-600  shadow-slate-800">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">      
                 <div className={`flex items-center ${togglenavbar ? "hidden" : "block"}`}>
-                    <a href="/home"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white">STOFFSPOT</span></a>
+                    <a href="/"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white">STOFFSPOT</span></a>
                 </div>
                 <div className={`flex ${togglenavbar ? "justify-between w-[100%]" : "block"} `}>
                     <div className='flex flex-wrap justify-center align-middle'>
