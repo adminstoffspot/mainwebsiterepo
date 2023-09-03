@@ -84,7 +84,7 @@ const Navbar = () => {
     const amount = 0
   const islogin = false
     return (
-        <nav className="bg-teal-800 fixed w-full z-20 top-0 left-0 shadow-slate-800">
+        <nav className="bg-teal-700 fixed w-full z-20 top-0 left-0 shadow-slate-800">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">      
                 <div className={`flex items-center ${togglenavbar ? "hidden" : "block"}`}>
                     <a href="/"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white">STOFFSPOT</span></a>
