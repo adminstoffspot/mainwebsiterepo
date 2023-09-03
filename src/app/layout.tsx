@@ -21,9 +21,9 @@ export default function RootLayout({
   "@type": "ShoppingCenter",
   "name": "Stoffspot Private Limited",
   "image": "https://stoffspot.com/Assets/lOGO-01.png",
-  "@id": "",
+  "title": "STOFFSPOT | COMMING SOON",
+  "description": "StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.",
   "url": "https://stoffspot.com/",
-  "telephone": "",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Nr Hanuman Nagar Bhandup",
@@ -72,14 +72,14 @@ export default function RootLayout({
           key="product-jsonld"
         />
         <link rel="canonical" href="https://stoffspot.com/" />
-        <meta property="og:image" content="<generated>" />
-<meta property="og:image:type" content="<generated>" />
-<meta property="og:image:width" content="<generated>" />
-<meta property="og:image:height" content="<generated>" />
-<meta name="twitter:image" content="<generated>" />
-<meta name="twitter:image:type" content="<generated>" />
-<meta name="twitter:image:width" content="<generated>" />
-<meta name="twitter:image:height" content="<generated>" />
+        <meta property="og:title" content="Stoffspot : Shop, Swap, and Save" />
+        <meta property="og:site_name" content="Stoffspot" />
+        <meta property="og:url" content="https://stoffspot.com/" />
+        <meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
+        <meta property="og:type" content="product" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.png" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-02.png" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-03.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
