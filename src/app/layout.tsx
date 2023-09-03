@@ -72,14 +72,12 @@ export default function RootLayout({
           key="product-jsonld"
         />
         <link rel="canonical" href="https://stoffspot.com/" />
-        <meta property="og:title" content="Stoffspot : Shop, Swap, and Save" />
+        <meta property="og:title" content='Stoffspot : Shop, Swap, and Save'/>
         <meta property="og:site_name" content="Stoffspot" />
         <meta property="og:url" content="https://stoffspot.com/" />
         <meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
         <meta property="og:type" content="product" />
         <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.png" />
-        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-02.png" />
-        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-03.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
