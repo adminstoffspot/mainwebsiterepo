@@ -4,7 +4,7 @@
 
 .CommingSoon {
     background-image:
-    linear-gradient(to bottom, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0.274)),
+    linear-gradient(to bottom, rgba(0, 128, 128, 0), rgba(0, 128, 128, 0.151)),
     url('https://images.pexels.com/photos/3735641/pexels-photo-3735641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     color: white;
