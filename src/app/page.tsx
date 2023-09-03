@@ -8,7 +8,7 @@ export default function Home() {
       "@type": "WebSite",
       "name": "STOFFSPOT",
       "url": "https://stoffspot.com/",
-      "description": "StoffSpot is a top online marketplace for buying and selling high-quality clothing, offering a diverse range of options to refresh your wardrobe or turn gently worn garments into cash.",
+      "description": "StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn gently worn garments into cash.",
       "publisher": {
         "@type": "Organization",
         "name": "STOFFSPOT",
