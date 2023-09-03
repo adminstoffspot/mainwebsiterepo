@@ -115,9 +115,9 @@ const Navbar = () => {
                                     <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Settings</a>
                                 </li>
                                 <li>{islogin ?
-                                    <a href="/login" className="block px-4 w-full py-2 text-sm text-gray-700 hover:bg-gray-100 ">Logout</a>
+                                    <a href="/" className="block px-4 w-full py-2 text-sm text-gray-700 hover:bg-gray-100 ">Logout</a>
                                     :
-                                    <a href="/login" className="block px-4 py-2 w-full text-sm text-gray-700 hover:bg-gray-100 ">LogIn</a>
+                                    <a href="/" className="block px-4 py-2 w-full text-sm text-gray-700 hover:bg-gray-100 ">LogIn</a>
                                 }
                                 </li>
                             </ul>
