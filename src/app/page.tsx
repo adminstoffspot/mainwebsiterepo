@@ -32,7 +32,7 @@ export default function Home() {
           <div className='font-bold'>COMING SOON</div>
         </div>
       </div>
-        <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(addJsonLd()) }} />
+      {/* <Script id='Markup-schema' type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(addJsonLd()) }} /> */}
     </>
   )
 }
