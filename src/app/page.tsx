@@ -26,6 +26,7 @@ export default function Home() {
 
     <>
       <Head>
+      <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}
