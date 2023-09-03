@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-
+import { NextSeo } from 'next-seo';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -56,15 +56,38 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      <NextSeo
+      openGraph={{
+        url: 'https://stoffspot.com/',
+        title: 'STOFFSPOT | COMMING SOON',
+        description: 'StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.',
+        images: [
+          {
+            url: 'https://stoffspot.com/Assets/lOGO-01.png',
+            width: 800,
+            height: 600,
+            alt: 'Og Image Alt',
+            type: 'image/png',
+          },
+          {
+            url: 'https://stoffspot.com/Assets/lOGO-02.png',
+            width: 900,
+            height: 800,
+            alt: 'Og Image Alt Second',
+            type: 'image/png',
+          },
+          { url: 'https://stoffspot.com/Assets/lOGO-03.png' }
+        ],
+        siteName: 'Stoffspot',
+      }}
+      twitter={{
+        handle: '@handle',
+        site: '@site',
+        cardType: 'summary_large_image',
+      }
+    }
+    />
         <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.png' />
-        <meta
-          property="og:description"
-          content="StoffSpot is a online marketplace for buying and selling clothing"
-        />
-        <meta
-          property="og:image"
-          content="./Assets/lOGO-02.png"
-        />
         <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <script
           type="application/ld+json"
@@ -72,12 +95,6 @@ export default function RootLayout({
           key="product-jsonld"
         />
         <link rel="canonical" href="https://stoffspot.com/" />
-        <meta property="og:title" content='Stoffspot : Shop, Swap, and Save'/>
-        <meta property="og:site_name" content="Stoffspot" />
-        <meta property="og:url" content="https://stoffspot.com/" />
-        <meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
-        <meta property="og:type" content="product" />
-        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
