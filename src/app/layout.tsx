@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='https://stoffspot.com/Assets/lOGO-02.png'/>
+        <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.png'/>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
