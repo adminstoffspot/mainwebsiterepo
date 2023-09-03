@@ -81,9 +81,9 @@ export default function RootLayout({
         siteName: 'Stoffspot',
       }}
       twitter={{
-        handle: '@handle',
-        site: '@site',
-        cardType: 'summary_large_image',
+        handle: '@stoffspot', // Your Twitter handle
+        site: '@stoffspot', // Your website's Twitter handle
+        cardType: 'summary_large_image', // Twitter card type
       }
     }
     />
