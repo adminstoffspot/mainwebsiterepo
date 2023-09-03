@@ -50,6 +50,8 @@ export default function Home() {
         <div className='text-center flex flex-col items-center text-white'>
           <div className='h-30'><img src='./Assets/lOGO-02.png' alt='hello' className='w-96 h-max' /></div>
           <div className='font-bold'>COMING SOON</div>
+          <h1 className='hidden'>STOFFSPOT</h1>
+          <h2 className='hidden'>women,stoffspot soon comming,CLOTHINGS, FASHION,RECYCLE,FEMINISM,MENSWEAR,MEN, KIDS,KIDS WEAR,earning,login,basket,open</h2>
           <div className="flex mt-2">
           <a href="/" className="twitter text-2xl mx-3"><FiTwitter/></a>
           <a href="/" className="facebook text-2xl mx-3"><FiFacebook/></a>
