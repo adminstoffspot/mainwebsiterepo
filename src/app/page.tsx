@@ -1,5 +1,5 @@
 import Navbar from './Components/Navbar'
-import Script from "next/script";
+import Head from 'next/head';
 export default function Home() {
   const addJsonLd = () => {
     return {
@@ -25,6 +25,13 @@ export default function Home() {
   return (
 
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={addJsonLd()}
+          key="product-jsonld"
+        />
+      </Head>
       <Navbar />
       <div className="h-screen w-screen bg-no-repeat bg-cover bg-fixed grid justify-center items-center text-6xl CommingSoon">
         <div className='text-center flex flex-col items-center text-white'>
@@ -32,7 +39,6 @@ export default function Home() {
           <div className='font-bold'>COMING SOON</div>
         </div>
       </div>
-      {/* <Script id='Markup-schema' type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(addJsonLd()) }} /> */}
     </>
   )
 }
