@@ -84,7 +84,7 @@ const Navbar = () => {
     const amount = 0
   const islogin = false
     return (
-        <nav className="bg-teal-800 dark:bg-gray-900 fixed w-full z-20 top-0 left-0  dark:border-gray-600  shadow-slate-800">
+        <nav className="bg-teal-800 fixed w-full z-20 top-0 left-0 shadow-slate-800">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">      
                 <div className={`flex items-center ${togglenavbar ? "hidden" : "block"}`}>
                     <a href="/"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white">STOFFSPOT</span></a>
@@ -97,27 +97,27 @@ const Navbar = () => {
                         <div className="h-full w-full flex flex-1 align-middle pt-1">
                             <AiOutlineUser onClick={handleclickuser} className='cursor-pointer mx-3 md:text-2xl text-3xl font-extralight text-white' />
                         </div>
-                        <div className={`z-50 ${toggleuser ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600`} id="user-dropdown">
+                        <div className={`z-50 ${toggleuser ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow`} id="user-dropdown">
                             <div className="px-4 py-3 max-w-[35vw] min-w-[10vw] text-center md:max-w-[15vw] overflow-hidden">
                                 {islogin ?
-                                    <span className="block text-sm  text-gray-500 truncate dark:text-gray-400"></span>
+                                    <span className="block text-sm  text-gray-500 truncate"></span>
                                     : ""}
                             </div>
                             <ul className={"block py-2 text-center"} aria-labelledby="user-menu-button">
                                 <li>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Dashboard</a>
                                 </li>
 
                                 <li>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Earnings</a>
                                 </li>
                                 <li>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 ">Settings</a>
                                 </li>
                                 <li>{islogin ?
-                                    <a href="/login" className="block px-4 w-full py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Logout</a>
+                                    <a href="/login" className="block px-4 w-full py-2 text-sm text-gray-700 hover:bg-gray-100 ">Logout</a>
                                     :
-                                    <a href="/login" className="block px-4 py-2 w-full text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">LogIn</a>
+                                    <a href="/login" className="block px-4 py-2 w-full text-sm text-gray-700 hover:bg-gray-100 ">LogIn</a>
                                 }
                                 </li>
                             </ul>
@@ -125,16 +125,16 @@ const Navbar = () => {
                         <div className="h-full w-full flex flex-1 align-middle pt-1">
                             <AiOutlineHeart onClick={handleclickliked} className={` ${togglenavbar ? "block" : "hidden"} cursor-pointer mx-3 md:block  md:text-2xl text-3xl font-extralight text-white`} />
                         </div>
-                        <div className={`z-50 ${toggleliked ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600`} id="language-dropdown-menu">
+                        <div className={`z-50 ${toggleliked ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow `} id="language-dropdown-menu">
                             <ul className="py-2 font-medium" role="none">
                                 <li>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                                         <div className="inline-flex items-center">
                                         </div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+                                    <a href="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
                                         <div className="inline-flex items-center">
                                         </div>
                                     </a>
@@ -152,7 +152,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    <button data-collapse-toggle="navbar-sticky" onClick={handlenavbar} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                    <button data-collapse-toggle="navbar-sticky" onClick={handlenavbar} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false">
                         <span className="sr-only">Open main menu</span>
                         <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
@@ -168,16 +168,16 @@ const Navbar = () => {
                                 </svg>
                             </button>
 
-                            <div id="dropdownNavbar" className={`z-10 ${togglenav1 ? "block" : "hidden"} font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}>
-                                <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                            <div id="dropdownNavbar" className={`z-10 ${togglenav1 ? "block" : "hidden"} font-normal absolute bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
+                                <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Men</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Men</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Women</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Women</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Kid</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Kid</a>
                                     </li>
                                 </ul>
                             </div>
@@ -188,16 +188,16 @@ const Navbar = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
-                            <div id="dropdownNavbar" className={`z-10 ${togglenav2 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}>
-                                <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                            <div id="dropdownNavbar" className={`z-10 ${togglenav2 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
+                                <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Men</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Men</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Women</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Women</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Kid</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Kid</a>
                                     </li>
                                 </ul>
                             </div>
@@ -208,16 +208,16 @@ const Navbar = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
-                            <div id="dropdownNavbar" className={`z-10 ${togglenav3 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600`}>
-                                <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                            <div id="dropdownNavbar" className={`z-10 ${togglenav3 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
+                                <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Men</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Men</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Women</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Women</a>
                                     </li>
                                     <li>
-                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Kid</a>
+                                        <a href="/" className="block px-4 py-2 hover:bg-gray-100">Kid</a>
                                     </li>
                                 </ul>
                             </div>
