@@ -9,8 +9,8 @@ export default function Home() {
       <Navbar />
       <div className="h-screen w-screen bg-no-repeat bg-cover bg-fixed grid justify-center items-center text-6xl CommingSoon">
         <div className='text-center flex flex-col items-center text-white'>
-          <div className='h-30'><img src='./Assets/lOGO-02.png' alt='hello' className='w-96 h-max' /></div>
-          <div className='font-bold'>COMING SOON</div>
+          <div className='h-30'><img src='./Assets/lOGO-02.png' alt='hello' className='w-96 h-auto' /></div>
+          <div className='font-bold md:text-6xl text-2xl'>COMING SOON</div>
           <h1 className='hidden'>STOFFSPOT</h1>
           <h2 className='hidden'>women,stoffspot soon comming,CLOTHINGS, FASHION,RECYCLE,FEMINISM,MENSWEAR,MEN, KIDS,KIDS WEAR,earning,login,basket,open</h2>
           <div className="flex mt-2">
