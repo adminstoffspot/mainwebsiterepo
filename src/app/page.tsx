@@ -32,6 +32,14 @@ export default function Home() {
           dangerouslySetInnerHTML={addJsonLd()}
           key="product-jsonld"
         />
+        <meta
+          property="og:description"
+          content="StoffSpot is a online marketplace for buying and selling clothing"
+        />
+        <meta
+          property="og:image"
+          content="./Assets/lOGO-02.png"
+        />
       </Head>
       <Navbar />
       <div className="h-screen w-screen bg-no-repeat bg-cover bg-fixed grid justify-center items-center text-6xl CommingSoon">
