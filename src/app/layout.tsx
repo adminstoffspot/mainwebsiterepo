@@ -21,7 +21,7 @@ export default function RootLayout({
   "@type": "ShoppingCenter",
   "name": "Stoffspot Private Limited",
   "image": "https://stoffspot.com/Assets/lOGO-01.png",
-  "title": "STOFFSPOT | COMMING SOON",
+  "title": "STOFFSPOT | COMMING SOON Your One-Stop Exchange Marketplace Shop, Swap and Save",
   "description": "StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.",
   "url": "https://stoffspot.com/",
   "address": {
