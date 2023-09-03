@@ -44,6 +44,7 @@ export default function Home() {
           property="og:image"
           content="./Assets/lOGO-02.png"
         />
+        <link rel="canonical" href="https://stoffspot.com/" />
       </Head>
       <Navbar />
       <div className="h-screen w-screen bg-no-repeat bg-cover bg-fixed grid justify-center items-center text-6xl CommingSoon">
