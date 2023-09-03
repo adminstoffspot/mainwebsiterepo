@@ -12,7 +12,7 @@ export default function Home() {
       "@type": "WebSite",
       "name": "STOFFSPOT",
       "url": "https://stoffspot.com/",
-      "description": "Discover a world of style at StoffSpot – your premier destination for buying and selling quality clothing online. Explore a diverse marketplace filled with fashion treasures, where you can effortlessly refresh your wardrobe or turn your gently worn garments into cash. Join our community of fashion enthusiasts today!",
+      "description": "StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.",
       "publisher": {
         "@type": "Organization",
         "name": "STOFFSPOT",
@@ -30,10 +30,19 @@ export default function Home() {
 
     <>
       <Head>
+      <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={addJsonLd()}
           key="product-jsonld"
+        />
+        <meta
+          property="og:description"
+          content="StoffSpot is a online marketplace for buying and selling clothing"
+        />
+        <meta
+          property="og:image"
+          content="./Assets/lOGO-02.png"
         />
       </Head>
       <Navbar />
