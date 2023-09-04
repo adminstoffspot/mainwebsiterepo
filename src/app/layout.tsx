@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <NextSeo
+      {/* <NextSeo
       openGraph={{
         url: 'https://stoffspot.com/',
         title: 'STOFFSPOT | COMMING SOON',
@@ -86,7 +86,7 @@ export default function RootLayout({
         cardType: 'summary_large_image', // Twitter card type
       }
     }
-    />
+    /> */}
         <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.webp' />
         <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <script
