@@ -16,10 +16,10 @@ export default function Home() {
           <h1 className='hidden'>STOFFSPOT</h1>
           <h2 className='hidden'>Women,stoffspot soon comming,CLOTHINGS, FASHION,RECYCLE,FEMINISM,MENSWEAR,MEN, KIDS,KIDS WEAR,earning,login,basket,open</h2>
           <div className="flex mt-2">
-          <a href="/" className="twitter text-2xl mx-3"><FiTwitter/></a>
-          <a href="/" className="facebook text-2xl mx-3"><FiFacebook/></a>
-          <a href="https://www.instagram.com/stoff_spot/?igshid=MWZjMTM2ODFkZg==" className="instagram text-2xl mx-3"><FiInstagram/></a>
-          <a href="https://www.linkedin.com/company/stoffspot-private-limited/" className="linkedin text-2xl mx-3"><FiLinkedin/></a>
+          <a href="/" className="twitter text-2xl mx-3"><FiTwitter alt="Twitter"/></a>
+          <a href="/" className="facebook text-2xl mx-3"><FiFacebook alt="facebook"/></a>
+          <a href="https://www.instagram.com/stoff_spot/?igshid=MWZjMTM2ODFkZg==" className="instagram text-2xl mx-3"><FiInstagram alt="instagram"/></a>
+          <a href="https://www.linkedin.com/company/stoffspot-private-limited/" className="linkedin text-2xl mx-3"><FiLinkedin alt="linkedin"/></a>
         </div>
         </div>
       </div>
