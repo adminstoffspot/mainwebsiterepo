@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      {/* <NextSeo
+        {/* <NextSeo
       openGraph={{
         url: 'https://stoffspot.com/',
         title: 'STOFFSPOT | COMMING SOON',
@@ -90,16 +90,20 @@ export default function RootLayout({
         <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.webp' />
         <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
 
-        <meta property="og:title" content="STOFFSPOT | COMMING SOON"/>
-<meta property="og:site_name" content="STOFFSPOT"/>
-<meta property="og:url" content="https://stoffspot.com"/>
-<meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash."/>
-<meta property="og:type" content="website"/>
-<meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.webp"/>
-<meta property="og:image" content="https://stoffspot.com/Assets/lOGO-02.webp"/>
-<meta property="og:image" content="https://stoffspot.com/Assets/lOGO-03.webp"/>
+        <meta property="og:title" content="STOFFSPOT | COMMING SOON" />
+        <meta property="og:site_name" content="STOFFSPOT" />
+        <meta property="og:url" content="https://stoffspot.com" />
+        <meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.webp" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-02.webp" />
+        <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-03.webp" />
 
-
+        <meta name="twitter:card" content="product" />
+        <meta name="twitter:site" content="@Stoff_Spot" />
+        <meta property="twitter:url" content="https://stoffspot.com" />
+        <meta name="twitter:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
+        <meta name="twitter:app:country" content="India"></meta>
 
         <script
           type="application/ld+json"
