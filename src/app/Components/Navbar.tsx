@@ -2,6 +2,7 @@
 import { BsSearch } from "react-icons/bs"
 import { AiOutlineUser } from "react-icons/ai"
 import { AiOutlineHeart } from "react-icons/ai"
+import { AiOutlineShoppingCart } from "react-icons/ai"
 import { useState } from "react"
 
 const Navbar = () => {
@@ -144,10 +145,9 @@ const Navbar = () => {
                         </div>
                         <div>
                             <div className="h-full w-full flex flex-1 align-middle pt-1">
-                                <p className="cursor-pointer text-white md:text-lg text-xl mx-2">Basket
-                                    <span className="align-top bg-red-500 text-xs rounded-full px-2 py-1 mx-1">
+                                <p className="cursor-pointer text-white md:text-lg text-xl mx-2"><span className="hidden md:block">Basket <span className="align-top bg-red-500 text-xs rounded-full px-2 py-1 mx-1">
                                         {amount}
-                                    </span>
+                                    </span></span><AiOutlineShoppingCart  className='cursor-pointer md:hidden flex mx-3 text-2xl font-extralight text-white'/>
                                 </p>
                             </div>
                         </div>
