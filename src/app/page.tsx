@@ -10,7 +10,7 @@ export default function Home() {
       <div className="h-screen w-screen bg-no-repeat bg-cover bg-fixed grid justify-center items-center text-6xl CommingSoon">
         <div className='text-center flex flex-col items-center text-white'>
           <div className='h-30 flex flex-1 justify-center'>
-            <img src='./Assets/lOGO-02.webp' height={'400'} width={'400'} alt='hello' className='justify-center' loading='lazy' />
+            <img src='./Assets/lOGO-02.webp' height={'400'} width={'400'} alt='hello' className='justify-center w-[45%] md:w-[35%]' loading='lazy' />
             </div>
           <div className='font-bold md:text-6xl text-2xl'>COMING SOON</div>
           <h1 className='hidden'>STOFFSPOT</h1>
