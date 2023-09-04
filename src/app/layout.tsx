@@ -99,7 +99,11 @@ export default function RootLayout({
         <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-02.webp" />
         <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-03.webp" />
 
-        <meta name="twitter:card" content="product" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="STOFFSPOT | COMMING SOON" />
+        <meta name="twitter:image" content="https://stoffspot.com/Assets/lOGO-01.webp" />
+        <meta name="twitter:image" content="https://stoffspot.com/Assets/lOGO-02.webp" />
+        <meta name="twitter:image" content="https://stoffspot.com/Assets/lOGO-03.webp" />
         <meta name="twitter:site" content="@Stoff_Spot" />
         <meta name="twitter:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
         <meta name="twitter:app:country" content="India"></meta>
