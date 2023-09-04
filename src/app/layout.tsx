@@ -82,7 +82,7 @@ export default function RootLayout({
         <meta name="twitter:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
         <meta name="twitter:app:country" content="India"></meta>
 
-        <meta httpEquiv="Content-Security-Policy" content={csp} />
+        <meta http-equiv="Content-Security-Policy" content={csp} />
 
         <script
           type="application/ld+json"
