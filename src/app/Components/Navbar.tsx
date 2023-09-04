@@ -93,10 +93,10 @@ const Navbar = () => {
                 <div className={`flex ${togglenavbar ? "justify-between w-[100%]" : "block"} `}>
                     <div className='flex flex-wrap justify-center align-middle'>
                         <div className="h-full w-full flex flex-1 align-middle pt-1">
-                            <BsSearch className='cursor-pointer mx-3 md:block hidden text-3xl md:text-2xl font-extralight text-white' />
+                            <BsSearch className='cursor-pointer mx-3 md:block hidden text-2xl font-extralight text-white' />
                         </div>
                         <div className="h-full w-full flex flex-1 align-middle pt-1">
-                            <AiOutlineUser onClick={handleclickuser} className='cursor-pointer mx-3 md:text-2xl text-3xl font-extralight text-white' />
+                            <AiOutlineUser onClick={handleclickuser} className='cursor-pointer mx-3  text-2xl font-extralight text-white' />
                         </div>
                         <div className={`z-50 ${toggleuser ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow`} id="user-dropdown">
                             <div className="px-4 py-3 max-w-[35vw] min-w-[10vw] text-center md:max-w-[15vw] overflow-hidden">
@@ -124,7 +124,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div className="h-full w-full flex flex-1 align-middle pt-1">
-                            <AiOutlineHeart onClick={handleclickliked} className={` ${togglenavbar ? "block" : "hidden"} cursor-pointer mx-3 md:block  md:text-2xl text-3xl font-extralight text-white`} />
+                            <AiOutlineHeart onClick={handleclickliked} className={` ${togglenavbar ? "block" : "hidden"} cursor-pointer mx-3 md:block text-2xl  font-extralight text-white`} />
                         </div>
                         <div className={`z-50 ${toggleliked ? "block" : "hidden"}  absolute mt-10 mx-10 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow `} id="language-dropdown-menu">
                             <ul className="py-2 font-medium" role="none">
