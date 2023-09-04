@@ -20,7 +20,7 @@ export default function RootLayout({
       "@context": "https://schema.org",
   "@type": "ShoppingCenter",
   "name": "Stoffspot Private Limited",
-  "image": "https://stoffspot.com/Assets/lOGO-01.png",
+  "image": "https://stoffspot.com/Assets/lOGO-01.webp",
   "title": "STOFFSPOT | COMMING SOON Your One-Stop Exchange Marketplace Shop, Swap and Save",
   "description": "StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.",
   "url": "https://stoffspot.com/",
@@ -63,20 +63,20 @@ export default function RootLayout({
         description: 'StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash.',
         images: [
           {
-            url: 'https://stoffspot.com/Assets/lOGO-01.png',
+            url: 'https://stoffspot.com/Assets/lOGO-01.webp',
             width: 800,
             height: 600,
             alt: 'Og Image Alt',
-            type: 'image/png',
+            type: 'image/webp',
           },
           {
-            url: 'https://stoffspot.com/Assets/lOGO-02.png',
+            url: 'https://stoffspot.com/Assets/lOGO-02.webp',
             width: 900,
             height: 800,
             alt: 'Og Image Alt Second',
-            type: 'image/png',
+            type: 'image/webp',
           },
-          { url: 'https://stoffspot.com/Assets/lOGO-03.png' }
+          { url: 'https://stoffspot.com/Assets/lOGO-03.webp' }
         ],
         siteName: 'Stoffspot',
       }}
@@ -87,7 +87,7 @@ export default function RootLayout({
       }
     }
     />
-        <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.png' />
+        <link rel='icon' href='https://stoffspot.com/Assets/lOGO-01.webp' />
         <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <script
           type="application/ld+json"
