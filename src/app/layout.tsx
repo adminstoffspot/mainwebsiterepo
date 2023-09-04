@@ -101,7 +101,6 @@ export default function RootLayout({
 
         <meta name="twitter:card" content="product" />
         <meta name="twitter:site" content="@Stoff_Spot" />
-        <meta property="twitter:url" content="https://stoffspot.com" />
         <meta name="twitter:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
         <meta name="twitter:app:country" content="India"></meta>
 
