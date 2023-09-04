@@ -5,6 +5,10 @@ const nextConfig = {
     async headers() {
         return [
             {
+                source: '/robots.txt',
+                destination: '/api/robots'
+            },
+            {
               source: '/(.*)',
               headers: [
                 {
@@ -32,15 +36,12 @@ const nextConfig = {
             },
           ];
       },   
-    async rewrites() {
-        return [
-            {
-                source: '/robots.txt',
-                destination: '/api/robots'
-            },
+    // async rewrites() {
+    //     return [
+            
 
-        ];
-    }
+    //     ];
+    // }
   }
 
 module.exports = nextConfig
