@@ -162,7 +162,7 @@ const Navbar = () => {
                 <div className={`items-center md:-order-1   justify-between ${togglenavbar ? "block" : "hidden"} w-full md:flex md:w-auto`} id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                         <li>
-                            <button id="dropdownNavbara" onClick={handleclicknav1} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Men
+                            <button id="dropdownNavbaraq" onClick={handleclicknav1} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Men
                                 <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true"  fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
-                            <div id="dropdownNavbar" className={`z-10 ${togglenav2 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
+                            <div id="dropdownNavbarq" className={`z-10 ${togglenav2 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
                                         <a href="/" className="block px-4 py-2 hover:bg-gray-100">Men</a>
@@ -203,12 +203,12 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li>
-                            <button id="dropdownNavbara" onClick={handleclicknav3} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Kids
+                            <button id="dropdownNavbaraw" onClick={handleclicknav3} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Kids
                                 <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true"  fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
-                            <div id="dropdownNavbar" className={`z-10 ${togglenav3 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
+                            <div id="dropdownNavbare" className={`z-10 ${togglenav3 ? "block" : "hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44`}>
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
                                         <a href="/" className="block px-4 py-2 hover:bg-gray-100">Men</a>
