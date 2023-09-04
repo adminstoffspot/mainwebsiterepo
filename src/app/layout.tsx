@@ -60,7 +60,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="9V1wd7g77Y9gGLlgJlia3CCJ2qI8DOFholXrXgB6Ilw" />
         <meta property="og:title" content="STOFFSPOT | COMMING SOON" />
         <meta property="og:site_name" content="STOFFSPOT" />
-        <meta property="og:url" content="https://stoffspot.com" />
+        <meta property="og:url" content="https://stoffspot.com/" />
         <meta property="og:description" content="StoffSpot is a online marketplace for buying and selling clothing, offering a diverse range of options to refresh your wardrobe or turn worn garments into cash." />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://stoffspot.com/Assets/lOGO-01.webp" />
