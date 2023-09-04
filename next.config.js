@@ -4,10 +4,7 @@ const nextConfig = {
     reactStrictMode: true, 
     async headers() {
         return [
-            {
-                source: '/robots.txt',
-                destination: '/api/robots'
-            },
+            
             {
               source: '/(.*)',
               headers: [
@@ -36,12 +33,14 @@ const nextConfig = {
             },
           ];
       },   
-    // async rewrites() {
-    //     return [
-            
-
-    //     ];
-    // }
+    async rewrites() {
+        return [
+          {
+            source: '/robots.txt',
+            destination: '/api/robots'
+        }
+        ];
+    }
   }
 
 module.exports = nextConfig
