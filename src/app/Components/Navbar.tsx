@@ -163,7 +163,7 @@ const Navbar = () => {
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
                         <li>
                             <button id="dropdownNavbara" onClick={handleclicknav1} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Men
-                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true"  fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
@@ -184,7 +184,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <button id="dropdownNavbara" onClick={handleclicknav2} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Women
-                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true"  fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
@@ -204,7 +204,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <button id="dropdownNavbara" onClick={handleclicknav3} data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded  md:p-0 md:w-auto ">Kids
-                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <svg className="w-2.5 h-2.5 ml-1.5" aria-hidden="true"  fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                                 </svg>
                             </button>
