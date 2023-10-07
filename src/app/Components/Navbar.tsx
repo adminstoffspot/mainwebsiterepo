@@ -1,9 +1,10 @@
 "use client"
-import { BsSearch } from "react-icons/bs"
+import { BsSearch,BsCart3 } from "react-icons/bs"
 import { AiOutlineUser } from "react-icons/ai"
 import { AiOutlineHeart } from "react-icons/ai"
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { useState } from "react"
+import Tdcart from "./tdcart"
 
 const Navbar = () => {
 
@@ -84,8 +85,19 @@ const Navbar = () => {
 // bg-[#558daf]
     const amount = 0
   const islogin = false
+  
+  const [open, setOpen] = useState(true);
+  const [isMyComponentVisible, setIsMyComponentVisible] = useState(false);
+
+  // Function to toggle the visibility of MyComponent
+  const toggleMyComponent = () => {
+    setIsMyComponentVisible(!isMyComponentVisible);
+  };
+  const hideTdcart = () => {
+    setIsMyComponentVisible(false);
+  };
     return (
-        <nav className="bg-teal-700 fixed w-full z-20 top-0 left-0 shadow-slate-800">
+        <nav className={`bg-teal-700 w-full z-20 top-0 left-0 shadow-slate-800`}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">      
                 <div className={`flex items-center ${togglenavbar ? "hidden" : "block"}`}>
                     <a href="/"><span className="self-center md:text-2xl text-xl tracking-normal md:tracking-[.5em] whitespace-nowrap text-white">STOFFSPOT</span></a>
@@ -145,10 +157,11 @@ const Navbar = () => {
                         </div>
                         <div>
                             <div className="h-full w-full flex flex-1 align-middle pt-1">
-                                <p className="cursor-pointer text-white md:text-lg text-xl mx-2"><span className="hidden md:block">Basket <span className="align-top bg-red-500 text-xs rounded-full px-2 py-1 mx-1">
+                                <button onClick={toggleMyComponent} className="cursor-pointer text-white md:text-lg text-xl mx-2"><span className="hidden md:flex"><BsCart3 classname="cursor-pointer mx-3 md:block text-2xl  text-white"/> <span className="align-top relative -top-3 bg-red-500 text-xs rounded-full px-2 py-1 mx-1">
                                         {amount}
                                     </span></span><AiOutlineShoppingCart  className='cursor-pointer md:hidden flex mx-3 text-2xl font-extralight text-white'/>
-                                </p>
+                                    {isMyComponentVisible ? <Tdcart onClose={hideTdcart}/> : null}
+                                </button>
                             </div>
                         </div>
                     </div>
